@@ -154,15 +154,12 @@ This driver detects all security features checked by:
 - **BattlEye** (BattlEye Innovations)
 - **Vanguard** (Riot Games)
 - **FACEIT Anti-Cheat**
-- **Valve Anti-Cheat (VAC)**
-- **PunkBuster**
 
 ## Limitations
 
 - TPM detection is heuristic-based (inferred from VBS state)
 - IOMMU detection checks CPU capability, not ACPI table parsing
-- Requires administrative privileges to load
-
+- 
 ## License
 
 Educational/research purposes only.
