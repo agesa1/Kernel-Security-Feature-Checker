@@ -56,8 +56,8 @@ The driver generates a security score (0-10) and identifies red flags that would
 ### Install Driver
 
 ```cmd
-sc create pte type= kernel binPath= C:\path\to\pte.sys
-sc start pte
+sc create urdriver type= kernel binPath= C:\path\to\urdriver.sys
+sc start urdriver
 ```
 
 ### View Results
@@ -121,8 +121,8 @@ Use DebugView or WinDbg to see `DbgPrint` output:
 ### Uninstall
 
 ```cmd
-sc stop pte
-sc delete pte
+sc stop urdriver
+sc delete urdriver
 ```
 
 ## Driver Verifier
