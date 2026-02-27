@@ -55,29 +55,6 @@ The driver generates a security score (0-10) and identifies red flags that would
 - Results written to `C:\security_report.txt` via system worker thread
 - Compiled with `/W4 /WX` (warnings as errors)
 
-## Build Requirements
-
-- Windows Driver Kit (WDK) 10
-- Visual Studio 2019 or later
-- Windows 10 SDK
-
-## Build Instructions
-
-1. Open `pte.sln` in Visual Studio
-2. Select **Release | x64** configuration
-3. Build → Build Solution (F7)
-4. Output: `x64\Release\pte.sys`
-
-## Deployment
-
-### Enable Test Signing (Required for unsigned drivers)
-
-```cmd
-bcdedit /set testsigning on
-```
-
-Reboot required.
-
 ### Install Driver
 
 ```cmd
