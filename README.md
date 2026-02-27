@@ -35,7 +35,6 @@ The driver generates a security score (0-10) and identifies red flags that would
 🚫 **Blocking Conditions:**
 - Test signing enabled
 - Debug mode enabled
-- Kernel debugger attached
 - DSE (Driver Signature Enforcement) disabled
 
 ✅ **Optimal Configuration:**
@@ -43,7 +42,6 @@ The driver generates a security score (0-10) and identifies red flags that would
 - Secure Boot enabled
 - VBS enabled
 - DSE enabled
-- No debuggers attached
 - Test signing disabled
 
 ## Technical Implementation
